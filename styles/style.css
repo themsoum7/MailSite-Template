@@ -1,0 +1,261 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: RobotoDraft, Roboto, sans-serif;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+.navbar {
+    float: left;
+    width: 320px;
+    box-shadow: 1px 1px 5px lightgray;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar-nav {
+    font-family: RobotoDraft, Roboto, sans-serif;
+}
+
+.navbar-collapse {
+    margin-bottom: 450px;
+}
+
+.navbar-brand:hover {
+    background-color: lightgray;
+}
+
+.navbar-brand img {
+    width: 60%;
+}
+
+.navbar .navbar-brand {
+    width: 320px;
+    height: 60px;
+    margin: 0;
+    padding: 14px 16px 16px;
+    border-bottom: 1px solid #ccc!important;
+}
+
+.nav-item-messages {
+    height: 63px;
+    background-color: #616161!important;
+}
+
+.nav-item-messages:hover {
+    background-color: black!important;
+}
+
+.navbar-light .navbar-nav .nav-link-messages, .navbar-light .navbar-nav .nav-link {
+    padding: 0 16px 0;
+    vertical-align: middle;
+}
+
+.navbar-light .navbar-nav .nav-link-messages {
+    color: rgb(255, 255, 255)!important;
+    line-height: 63px;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black!important;
+    line-height: 54px;
+}
+
+.nav-item {
+    height: 54px;
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.navbar-nav .btn:hover, .nav-item:hover {
+    background-color: #ccc!important;
+}
+
+.card-img-top {
+    margin-right: 10px;
+    width: 50px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.subject {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.name {
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-nav .btn {
+    width: 320px;
+    border-radius: 0;
+    background-color: white;
+    height: 54px;
+    text-align: left;
+    padding: 16px;
+    transition: none;
+}
+
+@keyframes animateleft {
+    0% {
+        left: -300px;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+.animate-left {
+    position: relative;
+    animation-name: animateleft;
+    animation-duration: 0.4s;
+    animation-timing-function: initial;
+    animation-delay: initial;
+    animation-iteration-count: initial;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+}
+
+.content .card-img-bottom {
+    width: 20%;
+    margin-top: 22px;
+    border-radius: 3px;
+    /*animation: animatetop 0.4s;*/
+}
+
+.content {
+    margin-left: 320px;
+    padding-left: 17px;
+    padding-right: 15px;
+}
+
+.subject-big {
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 18px;
+}
+
+.sender {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.content .btn {
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 0;
+    padding: 8px 16px!important;
+    border: none;
+}
+
+.content .btn:hover {
+    background-color: #ccc!important;
+}
+
+.content hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.svg-padding {
+    padding: 8px 16px!important;
+}
+
+.svg-margin-right {
+    margin-right: 10px;
+}
+
+.svg-margin-left {
+    margin-left: 10px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ccc!important;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+.navbar-collapse .bar-item {
+    padding: 16px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+
+.light-grey {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+.hover-light-grey:hover {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+.buttn {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.message-john {
+    margin-top: 15px;
+}
+
+@keyframes animatetop {
+    0% {
+        top: -300px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.animate-top {
+    position: relative;
+    animation: animatetop 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    animation-timing-function: initial;
+    animation-delay: initial;
+    animation-iteration-count: initial;
+    animation-direction: initial;
+    animation-fill-mode: initial;
+    animation-play-state: initial;
+}
+
+.show {
+    display: block!important;
+}
