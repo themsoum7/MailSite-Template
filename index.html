@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link rel="stylesheet" href="styles/style.css">-->
+    <link rel="stylesheet" href="styles/minimized_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+<nav class="navbar bg-light navbar-light" style="padding: 0; background-color: rgb(255, 255, 255)!important;">
+    <a class="navbar-brand" href="#">
+        <img src="https://www.w3schools.com/images/w3schools.png"/>
+    </a>
+
+    <div class="navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item-messages">
+                <a class="nav-link-messages" href="#">New Message
+                    <i class="svg-padding fa fa-pencil"></i>
+                </a>
+            </li>
+
+            <li>
+                <button type="button" class="btn" data-toggle="collapse" data-target="#demo">
+                    <i class="svg-margin-right fa fa-inbox"></i>
+                    Inbox (3)
+                    <i class="svg-margin-left fa fa-caret-down"></i>
+                </button>
+                <div id="demo" class="collapse animate-left show">
+                    <a class="bar-item buttn border-bottom hover-light-grey light-grey">
+                        <div class="container">
+                            <img class="card-img-top" src="https://www.w3schools.com/w3images/avatar3.png" alt="Card image"
+                                 style="width: 35px">
+                            <span class="name">Borge Refsnes</span>
+                            <h6 class="subject">Subject: Remember Me</h6>
+                            <p class="message">Hello, i just wanted to let you know that i'll be home at...</p>
+                        </div>
+                    </a>
+                    <a class="bar-item buttn border-bottom hover-light-grey">
+                        <div class="container">
+                            <img class="card-img-top" src="https://www.w3schools.com/w3images/avatar5.png" alt="Card image"
+                                 style="width: 35px">
+                            <span class="name">Jane Doe</span>
+                            <p class="message"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        </div>
+                    </a>
+                    <a class="bar-item buttn border-bottom hover-light-grey">
+                        <div class="container">
+                            <img class="card-img-top" src="https://www.w3schools.com/w3images/avatar2.png" alt="Card image"
+                                 style="width: 35px">
+                            <span class="name">John Doe</span>
+                            <p class="message-john">Welcome!</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="svg-margin-right fa fa-paper-plane"></i>
+                    Sent
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="svg-margin-right fa fa-hourglass-end"></i>
+                    Drafts
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="svg-margin-right fa fa-trash"></i>
+                    Trash
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="content">
+    <img class="card-img-bottom animate-top" src="https://www.w3schools.com/w3images/avatar3.png" alt="Card image">
+    <h5 class="subject-big">Subject: Remember Me</h5>
+    <h4 class="sender">
+        <i class="fa fa-clock-o"></i>
+        From Borge Refsnes, Sep 27, 2015.
+    </h4>
+    <a class="btn" href="#">
+        Reply
+        <i class="svg-margin-left fa fa-mail-reply"></i>
+    </a>
+    <a class="btn" href="#">
+        Forward
+        <i class="svg-margin-left fa fa-arrow-right"></i>
+    </a>
+    <hr>
+    <p>Hello, i just wanted to let you know that i'll be home at lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>
+        Best Regards,
+        <br>
+        Borge Refsnes
+    </p>
+</div>
+
+<!--<div class="content">-->
+    <!--<img class="card-img-bottom" src="https://www.w3schools.com/w3images/avatar5.png" alt="Card image">-->
+    <!--<h5 class="subject-big">Subject: None</h5>-->
+    <!--<h4 class="sender">From Jane Doe, Sep 25, 2015.</h4>-->
+    <!--<a class="btn" href="#">Reply</a>-->
+    <!--<a class="btn" href="#">Forward</a>-->
+    <!--<hr>-->
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore-->
+        <!--magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo-->
+        <!--consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est-->
+        <!--laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim-->
+        <!--ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+    <!--<p>-->
+        <!--Forever yours,-->
+        <!--<br>-->
+        <!--Jane-->
+    <!--</p>-->
+<!--</div>-->
+
+<!--<div class="content">-->
+    <!--<img class="card-img-bottom" src="https://www.w3schools.com/w3images/avatar2.png" alt="Card image">-->
+    <!--<h5 class="subject-big">Subject: None</h5>-->
+    <!--<h4 class="sender">From John Doe, Sep 23, 2015.</h4>-->
+    <!--<a class="btn" href="#">Reply</a>-->
+    <!--<a class="btn" href="#">Forward</a>-->
+    <!--<hr>-->
+    <!--<p>Welcome</p>-->
+    <!--<p>That's it!</p>-->
+<!--</div>-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+</html>
